@@ -1,0 +1,82 @@
+.Appcontainer{
+    height: 100vh;
+    width: 100vw ;
+    overflow-x: hidden;
+  }
+  .Appmaindiv{
+    height: 100%;
+    width: 100%;
+  }
+  .navbarforALLdiv{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .RoutespgesforALLdiv{
+    height: 90%;
+    width: 100%;
+   
+  }
+  
+  
+  
+  /*------------- cart page -----*/
+  
+  .cartcard{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(147, 246, 255); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+  .cartcontent{
+      height: 140px;
+      width: 60%;
+      background-color: rgb(50, 175, 214);
+      box-shadow: 0 0 5px black;
+      margin: 1rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: .7rem;
+      }
+  .cartcontent img{
+        margin-top: 1rem;
+      height: 110px;
+      width: 120px;
+      box-shadow: 0px 2px 2px  rgb(7, 5, 5);
+     }
+  
+  .cartcontent p{
+        margin: .5rem;
+         font-size: 1.3rem;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .cartcontent button{
+    height: 2rem;
+    width: 7rem;
+    background-color: yellow;
+    border: 1px solid rgb(245, 245, 245);
+    font-size: 1.1rem; 
+    border-radius: .6rem;
+    }
+  .cartcontent button:hover{
+      background-color: rgb(229, 10, 24);
+      color: white;
+  } 
+  
+  .cartmaindiv h2{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.8rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  

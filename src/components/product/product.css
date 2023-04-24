@@ -1,0 +1,204 @@
+.productdiv {
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productmaindiv {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 3px 1px black;
+}
+
+.ProductNavlinks {
+    height: 95%;
+    width: 25%;
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow:inset 0px 0px 1px 2px rgb(241, 241, 241);
+}
+
+.ProductNavlinks a {
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.ProductNavlinks img {
+   height: 50%;
+   width: 50%;
+}
+
+.ProductNavlinks .active {
+    color: aqua;
+}
+
+.productroute {
+    height: 92%;
+    width: 70%;
+    
+    border-radius: 1rem;
+    box-shadow:0px 3px 0px 1px rgb(42, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productpage {
+    height: 95%;
+    width: 95%;
+    border-radius: 1rem;
+    box-shadow:0px -3px 0px 1px rgb(7, 7, 7);
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-x: scroll; */
+}
+
+
+
+
+/*-------------------productdetailspage------------------*/
+
+.products{
+    height: 90%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+
+/* .divmlcs{
+    height: bnb;
+} */
+
+/*--------ShowProductsdetails---------------------*/
+
+.productmaindiva{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 1px 0px black;
+}
+.categrydiv{
+    height: 10%;
+    width: 95%;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.categrydiv div{
+    height: 100%;
+    width:45%;
+    border-radius: .5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.categrydiv  div img{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(86, 86, 86);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    text-transform: capitalize;
+    margin-right: 1rem;
+}
+.detailsSeconddiv{
+    height: 85%;
+    width: 95%;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagediv{
+    height: 90%;
+    width: 40%;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 3px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagediv img{
+    height: 80%;
+    width: 60%;
+    border-radius: .5rem;
+    background-color: antiquewhite;
+}
+.detailsofproducts{
+    height: 90%;
+    width: 55%;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 3px 1px black;
+}
+
+.descriptiondiv{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+.title{
+    padding: 1px 10px;
+    font-size: 1.5rem;
+    background-color: aqua;
+    border-radius: .5rem;
+}
+.price{
+    padding: 1px 10px;
+    font-size: 1.5rem;
+    
+}
+.desc{
+    padding: 1px 10px;
+    font-size: 1.5rem;
+}
+span{
+    font-size: 1rem;
+}
+
+.deproducts{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}

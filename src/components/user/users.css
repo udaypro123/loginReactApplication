@@ -1,0 +1,38 @@
+.Userdiv{
+    height: 100%;
+    width: 100%;
+}
+.Userdiv h3{
+  padding: .3rem;
+}
+.radioBtn {
+    padding: .5rem;
+}
+.radioBtn p{
+    padding: .1rem;
+}
+.radioBtn label{
+    margin-right: 1rem;
+}
+
+.userMaincard{
+    height: 100%;
+    width: 100%;
+}
+
+.userdetailsdata{
+    margin-top: 1rem;
+    background-color: black;
+    border-radius: .3rem;
+}
+.userdetailsdata div{
+    color: whitesmoke; 
+}
+#userdata{
+    border: 1px solid black;
+}
+.userdetails{
+    height: 300px;
+   overflow-x: hidden;
+    overflow-y: scroll;
+}

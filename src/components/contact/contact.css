@@ -1,0 +1,12 @@
+.contactdiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    font-size: 2rem;
+}
+.contactdiv h1{
+    margin-top: 5%;
+    color: red;
+}
