@@ -6,6 +6,7 @@ const showprodutdetailsSlice=createSlice({
     initialState:{
         prodata:[],
         homeitems:[],
+        cartitem:[],
     },
     reducers:{
         additem(state,action){
@@ -13,11 +14,15 @@ const showprodutdetailsSlice=createSlice({
         },
         removeItem(state,action){
             // state=state.prodata.filter((item)=>item.id !==action.payload)
-            state.homeitems.splice(action.payload,1)
+            state.cartitem.splice(action.payload,1)
         },
         
         addhomeitem(state,action){
             state.homeitems.push(action.payload)
+        },
+
+        cartitems(state,action){
+            state.cartitem.push(action.payload)
         },
 
        
@@ -27,4 +32,4 @@ const showprodutdetailsSlice=createSlice({
 })
 
 export default showprodutdetailsSlice.reducer;
-export const {additem,removeItem,addhomeitem}= showprodutdetailsSlice.actions;
+export const {additem,removeItem,addhomeitem,cartitems}= showprodutdetailsSlice.actions;

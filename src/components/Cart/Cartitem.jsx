@@ -7,7 +7,7 @@ const Cartitem = () => {
 const dispatch=useDispatch()
 // const {prodata}=useSelector((state)=>state.productdata)
 
-const { homeitems } = useSelector((state) => state.productdata)
+const { cartitem } = useSelector((state) => state.productdata)
     // var item = homeitems[homeitems.length - 1]
 
 
@@ -20,9 +20,9 @@ const deleteitem=(id)=>{
     <>
     <div className='cartmaindiv'>
      {
-      homeitems.length>0 ? <div className='cartcard'>
+      cartitem.length >0 ? <div className='cartcard'>
         {
-          homeitems.map((ele,id)=>{
+          cartitem.map((ele,id)=>{
               return (
                 <>
                 <div className='cartcontent' key={id}>
