@@ -32,13 +32,12 @@ function App() {
                 <div className='navbarforALLdiv'>
                   <Navbar />
                 </div>
-                
-              </> : <Login />
+              </> : null
             }
 
             <div className='RoutespgesforALLdiv'>
                   <Routes>
-                    <Route path='/' element={ <Home /> }></Route>
+                    <Route path='/' element={ islogin? <Protect><Home /></Protect>  :<Login/>}></Route>
                     <Route path='/:i' element={ <Homedetails /> }></Route>
 
                     <Route path='/products' element={<Protect><Products /></Protect>  }>
