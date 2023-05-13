@@ -26,7 +26,6 @@ const Products = () => {
         <div className='productroute'>
        
         <div className='productpage'>
-
            <Productdetails/>
         </div>
         </div>

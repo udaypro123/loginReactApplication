@@ -36,22 +36,20 @@ function App() {
             }
 
             <div className='RoutespgesforALLdiv'>
-                  <Routes>
-                    <Route path='/' element={ islogin? <Protect><Home /></Protect>  :<Login/>}></Route>
-                    <Route path='/:i' element={ <Homedetails /> }></Route>
+              <Routes>
+                <Route path='/' element={ islogin ? <Protect><Home /></Protect> : <Login /> }/>
+                <Route path='/:i' element={ <Homedetails /> }/>
 
-                    <Route path='/products' element={<Protect><Products /></Protect>  }>
-                
-                    </Route>
-                    <Route path='/products/:id' element={ <Products /> }></Route>
-                    <Route path='/products/:id/:i' element={<Showproductdetails/>}></Route>
-                   
-                    <Route path='/users' element={<Protect><Users /> </Protect> }></Route>
-                    <Route path='/contact' element={<Protect> <Contact /></Protect> }></Route>
-                    <Route path='/addtocart' element={<Protect><Cartitem /></Protect>  }></Route>
-                    <Route path='/*' element={ <Home /> }></Route>
-                  </Routes>
-                </div>
+                <Route path='/products' element={ <Protect><Products /></Protect> }/>
+                <Route path='/products/:id' element={ <Products /> }/>
+                <Route path='/products/:id/:i' element={ <Showproductdetails /> }/>
+
+                <Route path='/users' element={ <Protect><Users /> </Protect> }/>
+                <Route path='/contact' element={ <Protect> <Contact /></Protect> }/>
+                <Route path='/addtocart' element={ <Protect><Cartitem /></Protect> }/>
+                <Route path='/*' element={ <Home /> }/>
+              </Routes>
+            </div>
 
           </div>
 

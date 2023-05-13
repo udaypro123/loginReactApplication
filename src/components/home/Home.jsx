@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getProductHomepage } from '../reduxx/store/homepageSlice'
 import { addhomeitem } from '../reduxx/store/showprodutdetailsSlice'
 import { cartitems } from '../reduxx/store/showprodutdetailsSlice'
+
 const Home = () => {
 
   const dispatch = useDispatch()
